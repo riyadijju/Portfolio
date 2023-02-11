@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+.image-container {
+    width: 30%;
+    margin: 1%;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    width: 310px;
+    height: 350px;
+}
+h2{
+    padding-bottom: 10%;
+    text-align: center;
+    color: aliceblue;
+}
+body{
+    background: #132f4c;
+}
+p{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 1012px){
+    header nav {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
+      background-color: white;
+      display: none;
+    }
+    .container{
+        position: absolute;
+        flex-direction: column;
+        align-content: center;
+    }
+    .image-container{
+        width: 100%;
+    }
+    img{
+        width: 500px; 
+    }
+}
